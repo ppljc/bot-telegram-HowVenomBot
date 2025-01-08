@@ -69,7 +69,7 @@ async def inline_query(query: InlineQuery):
 				id='3',
 				title='🐾 Насколько это venomенально?',
 				description='В процентах 🤑',
-					thumbnail_url='https://img03.rl0.ru/afisha/e1200x1200i/daily.afisha.ru/uploads/images/a/d9/ad9e58393fdc6b461e98b330dc312711.jpg',
+				thumbnail_url='https://img03.rl0.ru/afisha/e1200x1200i/daily.afisha.ru/uploads/images/a/d9/ad9e58393fdc6b461e98b330dc312711.jpg',
 				reply_markup=builder.as_markup(),
 				input_message_content=InputTextMessageContent(
 					message_text=f'🐾 Это на {random.randint(0, 100)}% venomенально!'
@@ -82,7 +82,7 @@ async def inline_query(query: InlineQuery):
 				id='4',
 				title='🐾 Помощь',
 				description='Как использовать 🤔',
-					thumbnail_url='https://img03.rl0.ru/afisha/e1200x1200i/daily.afisha.ru/uploads/images/a/d9/ad9e58393fdc6b461e98b330dc312711.jpg',
+				thumbnail_url='https://img03.rl0.ru/afisha/e1200x1200i/daily.afisha.ru/uploads/images/a/d9/ad9e58393fdc6b461e98b330dc312711.jpg',
 				reply_markup=builder.as_markup(),
 				input_message_content=InputTextMessageContent(
 					message_text=(
